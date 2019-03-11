@@ -69,7 +69,6 @@ since now all the references to that search are covered by my little abstraction
 >
 > Key Points: ***No duplication, one thing, expressiveness, tiny abstractions.***
 
+## The Boy Scout Rule
 
-
-
-
+***Leave the campground cleaner than you found it.***
