@@ -43,3 +43,14 @@ public List<Cell> getFlaggedCells() {
 }
 ```
 
+### Use Searchable names
+
+Single-letter names and numeric constants have a particular problem in that they are not easy to locate across a body of text.
+
+* MAX_CLASSES_PER_STUDENT
+* 7
+
+*variable, method, log etc.*
+
+## TLNR - Too long, not read
+
