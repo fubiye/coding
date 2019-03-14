@@ -52,5 +52,74 @@ Single-letter names and numeric constants have a particular problem in that they
 
 *variable, method, log etc.*
 
-## TLNR - Too long, not read
+## Too long, not read - make it small
 
+### The Single Responsibility Principle(SRP)
+
+***SRP: Each software module should have one and only one reason to change***
+
+***FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL. THEY SHOULD DO IT ONLY.***
+
+Shape of funciton:
++ Lines should not be 150 characters long. 
++ Functions should not be 100 lines long.
++ Functions should hardly ever be 20 lines long.
+
+Abstraction: ***One Level of Abstraction per Function***
+
+Case Study: Switch Statements
+
+**Payroll.java**
+```java 
+public Money calculatePay(Employee e) throws InvalidEmployeeType {
+    switch (e.type) {
+        case COMMISSIONED:
+            return calculateCommissionedPay(e);
+        case HOURLY:
+            return calculateHourlyPay(e);
+        case SALARIED:
+            return calculateSalariedPay(e);
+        default:
+            throw new InvalidEmployeeType(e.type);
+    }
+}
+```
+Problems:
+ + it’s large, and when new employee types are added, it will grow. 
+ + it very clearly does more than one thing.
+ + it violates the Single Responsibility Principle (SRP) because there is more than one reason for it to change. 
+ + it violates the Open Closed Principle (OCP) because it
+must change whenever new types are added.
+
+*OCP: software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification*
+
+Solution: ABSTRACT FACTORY
+
+Employee and Factory
+```java
+public abstract class Employee {
+    public abstract boolean isPayday();
+    public abstract Money calculatePay();
+    public abstract void deliverPay(Money pay);
+}
+
+public interface EmployeeFactory {
+    public Employee makeEmployee(EmployeeRecord r) throws InvalidEmployeeType;
+}
+
+public class EmployeeFactoryImpl implements EmployeeFactory {
+    public Employee makeEmployee(EmployeeRecord r) throws InvalidEmployeeType {
+        switch (r.type) {
+            case COMMISSIONED:
+                return new CommissionedEmployee(r) ;
+            case HOURLY:
+                return new HourlyEmployee(r);
+            case SALARIED:
+                return new SalariedEmploye(r);
+            default:
+                throw new InvalidEmployeeType(r.type);
+        }
+    }
+}
+```
+### Duplication - Don’t Repeat Yourself
