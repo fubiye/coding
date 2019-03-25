@@ -1,0 +1,153 @@
+{
+    "root": {
+        "data": {
+            "id": "bswm04nich40",
+            "created": 1553523171746,
+            "text": "Clean Code"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bswm0fxp8u80",
+                    "created": 1553523196307,
+                    "text": "2. Meaningful Names",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bswmcbozvvk0",
+                            "created": 1553524127444,
+                            "text": "Use Intention-Revealing Names"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswmbtqr9rk0",
+                            "created": 1553524088368,
+                            "text": "Avoid Disinformation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswmbicpmh40",
+                            "created": 1553524063574,
+                            "text": "Make Meaningful Distinctions"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswm8wwmvjc0",
+                            "created": 1553523860161,
+                            "text": "Use Pronounceable Name",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswm8mbj30w0",
+                            "created": 1553523837117,
+                            "text": "Use Searchable Names",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswm125abco0",
+                            "created": 1553523244655,
+                            "text": "Avoid Encodings",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bswm1920nz40",
+                                    "created": 1553523259695,
+                                    "text": "Hungarian Notation(匈牙利命名法，eg: wParam)",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bswm3rorng00",
+                                    "created": 1553523456981,
+                                    "text": "Member Prefixes, eg: m_dsc",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bswm4ut2kw00",
+                                    "created": 1553523542137,
+                                    "text": "Interfaces and Implementations",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bswm6te22cg0",
+                            "created": 1553523695779,
+                            "text": "Avoid Mental Mapping, eg. single-letter",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswmdopioao0",
+                            "created": 1553524234137,
+                            "text": "Class Name:  have noun or noun phrase"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswme6wa0c80",
+                            "created": 1553524273728,
+                            "text": "Method Names: have verb or verb phrase"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswmexjzecw0",
+                            "created": 1553524331758,
+                            "text": "Don't be cute"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswmf3xmicg0",
+                            "created": 1553524345644,
+                            "text": "Pick One Word per Concept,eg: fetch, retrieve, get"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswmgm2wq400",
+                            "created": 1553524463509,
+                            "text": "Don't Pun"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43",
+    "id": "bswm04nich40"
+}
