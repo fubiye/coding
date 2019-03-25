@@ -3,7 +3,8 @@
         "data": {
             "id": "bswm04nich40",
             "created": 1553523171746,
-            "text": "Clean Code"
+            "text": "Clean Code",
+            "font-weight": "bold"
         },
         "children": [
             {
@@ -138,7 +139,39 @@
                         "data": {
                             "id": "bswmgm2wq400",
                             "created": 1553524463509,
-                            "text": "Don't Pun"
+                            "text": "Don't Pun: same word for two purposes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswmwyg3sp40",
+                            "created": 1553525744255,
+                            "text": "Use Solution Domain Names"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswmx5b336o0",
+                            "created": 1553525759189,
+                            "text": "Use Problem Domain Names"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswn0n8t3xs0",
+                            "created": 1553526033326,
+                            "text": "Add Meaningful Context"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bswn2b1gdk80",
+                            "created": 1553526163488,
+                            "text": "Don't Add Gratuitous Context"
                         },
                         "children": []
                     }
@@ -146,8 +179,8 @@
             }
         ]
     },
-    "template": "default",
-    "theme": "classic",
+    "template": "right",
+    "theme": "fresh-blue-compat",
     "version": "1.4.43",
     "id": "bswm04nich40"
 }
