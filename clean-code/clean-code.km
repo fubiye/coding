@@ -294,10 +294,67 @@
                                             "text": "Argument List"
                                         },
                                         "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bsxiz96ryuo0",
+                                            "created": 1553616199881,
+                                            "text": "Verbs and Keywords"
+                                        },
+                                        "children": []
                                     }
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "bsxj1ar0gg00",
+                            "created": 1553616360010,
+                            "text": "Have No Side Effects"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bsxj20j8zpk0",
+                            "created": 1553616416137,
+                            "text": "Command Query Separation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bsxj256e2r40",
+                            "created": 1553616426243,
+                            "text": "Prefer Exceptions to Returning Error Codes"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bsxj32n9jzs0",
+                                    "created": 1553616499097,
+                                    "text": "Extract Try/Catch Blocks"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bsxj3d1l20o0",
+                                    "created": 1553616521731,
+                                    "text": "Error handling Is One Thing"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bsxj3rn4ync0",
+                            "created": 1553616553509,
+                            "text": "Don't Repeat Yourself"
+                        },
+                        "children": []
                     }
                 ]
             }
