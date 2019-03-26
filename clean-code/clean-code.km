@@ -3,8 +3,7 @@
         "data": {
             "id": "bswm04nich40",
             "created": 1553523171746,
-            "text": "Clean Code",
-            "font-weight": "bold"
+            "text": "Clean Code"
         },
         "children": [
             {
@@ -12,7 +11,8 @@
                     "id": "bswm0fxp8u80",
                     "created": 1553523196307,
                     "text": "2. Meaningful Names",
-                    "layout": null
+                    "layout": null,
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -174,6 +174,130 @@
                             "text": "Don't Add Gratuitous Context"
                         },
                         "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bsxicxknu740",
+                    "created": 1553614450588,
+                    "text": "3. Functions"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bsxid9t8a1s0",
+                            "created": 1553614477227,
+                            "text": "Small"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bsxiglcx8xc0",
+                            "created": 1553614737455,
+                            "text": "Do One Thing"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bsxihtf73zc0",
+                            "created": 1553614833371,
+                            "text": "One Level of Abstraction per Function"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bsxiiabzdr40",
+                            "created": 1553614870182,
+                            "text": "Reading Code from Top to Bottom: The Stepdown Rule"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bsxima5gtmg0",
+                            "created": 1553615183245,
+                            "text": "Switch Statements -> AbstractFactory"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bsxinyyyuhs0",
+                            "created": 1553615315635,
+                            "text": "Use Descriptive Names"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bsxiolxjqqo0",
+                            "created": 1553615365616,
+                            "text": "Arguments"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bsxip914ehk0",
+                                    "created": 1553615415898,
+                                    "text": "Number: 0 (niladic) > 1 (monadic) > 2 (dyadic)  > 3 （triadic）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bsxis8ci2tc0",
+                                    "created": 1553615649501,
+                                    "text": "Avoids"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bsxisbl01xk0",
+                                            "created": 1553615656546,
+                                            "text": "Output argument"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bsxisl27luo0",
+                                            "created": 1553615677177,
+                                            "text": "Flag Arguments"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bsxiumi1z2g0",
+                                    "created": 1553615837040,
+                                    "text": "Using"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bsxiuomxy800",
+                                            "created": 1553615841690,
+                                            "text": "Argument Objects"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bsxiuvbcwf40",
+                                            "created": 1553615856227,
+                                            "text": "Argument List"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
