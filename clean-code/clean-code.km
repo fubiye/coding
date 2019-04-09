@@ -181,7 +181,8 @@
                 "data": {
                     "id": "bsxicxknu740",
                     "created": 1553614450588,
-                    "text": "3. Functions"
+                    "text": "3. Functions",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -236,7 +237,8 @@
                         "data": {
                             "id": "bsxiolxjqqo0",
                             "created": 1553615365616,
-                            "text": "Arguments"
+                            "text": "Arguments",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -355,6 +357,787 @@
                             "text": "Don't Repeat Yourself"
                         },
                         "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bt78kerhl4o0",
+                    "created": 1554602425023,
+                    "text": "4.Comments",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bt78l3vx3dc0",
+                            "created": 1554602479711,
+                            "text": "Explain Yourself in Code"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt78lbkfwgg0",
+                            "created": 1554602496430,
+                            "text": "Good Comments",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt78lexam4g0",
+                                    "created": 1554602503738,
+                                    "text": "Legal Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78m11exow0",
+                                    "created": 1554602551876,
+                                    "text": "Informative Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78m9w92jc0",
+                                    "created": 1554602571155,
+                                    "text": "Explanation of Intent"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78ms9c4yo0",
+                                    "created": 1554602611128,
+                                    "text": "Clarification"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78n817mzk0",
+                                    "created": 1554602645466,
+                                    "text": "Warning of Consequences"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78neoqna00",
+                                    "created": 1554602659949,
+                                    "text": "TODO Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78noigzxk0",
+                                    "created": 1554602681338,
+                                    "text": "Amplification"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78nvuxbz40",
+                                    "created": 1554602697328,
+                                    "text": "Javadocs in Public APIs"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt78o3bthtk0",
+                            "created": 1554602713587,
+                            "text": "Bad Comments",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt78p0i00dc0",
+                                    "created": 1554602785795,
+                                    "text": "Mumbling(含糊)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78pdlju200",
+                                    "created": 1554602814308,
+                                    "text": "Redundant Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78szcyhts0",
+                                    "created": 1554603096770,
+                                    "text": "Misleading Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78taphgfs0",
+                                    "created": 1554603121472,
+                                    "text": "Mandated Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78ty8luhs0",
+                                    "created": 1554603172695,
+                                    "text": "Journal Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78uagkd1k0",
+                                    "created": 1554603199297,
+                                    "text": "Noise Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78v5yyh1c0",
+                                    "created": 1554603267889,
+                                    "text": "Scary Noise"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78vbpno680",
+                                    "created": 1554603280387,
+                                    "text": "Don't Use a Comment when you can use a function or a variable"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78vun0ihc0",
+                                    "created": 1554603321586,
+                                    "text": "Position Markers"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78w7tznpc0",
+                                    "created": 1554603350306,
+                                    "text": "Closing Brace Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78wra817s0",
+                                    "created": 1554603392647,
+                                    "text": "Attributions and Bylines"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78x26bj8g0",
+                                    "created": 1554603416355,
+                                    "text": "Commented-Out Code"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78xaqtw800",
+                                    "created": 1554603435010,
+                                    "text": "HTML Comments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78xmn24uw0",
+                                    "created": 1554603460903,
+                                    "text": "Nonlocal Information"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78y6ekkso0",
+                                    "created": 1554603503926,
+                                    "text": "Too Much Information"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78ygur5r40",
+                                    "created": 1554603526672,
+                                    "text": "Inobvious Connection"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78yzgwk8o0",
+                                    "created": 1554603567193,
+                                    "text": "Function Headers"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt78z6bwbvk0",
+                                    "created": 1554603582128,
+                                    "text": "Javadocs in Nonpublic Code"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bt7900jnxhc0",
+                    "created": 1554603647901,
+                    "text": "5. Formatting",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bt792rg6hew0",
+                            "created": 1554603863192,
+                            "text": "The Purpose of Formatting: about formatting"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt793tpvm4g0",
+                            "created": 1554603946496,
+                            "text": "Vertical Formatting",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt795ulylbc0",
+                                    "created": 1554604105164,
+                                    "text": "The Newspaper Metaphor: provide the hight-level concepts and algorithms at topmost part"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt798aumy8w0",
+                                    "created": 1554604297246,
+                                    "text": "Vertical Openness Between Concepts"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt798yb2mao0",
+                                    "created": 1554604348306,
+                                    "text": "Vertical Density"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt799t7c1xs0",
+                                    "created": 1554604415560,
+                                    "text": "Vertical Distance"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bt79afkz1aw0",
+                                            "created": 1554604464274,
+                                            "text": "variable declarations: as close to their usage as possible"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bt79bjt5sm80",
+                                            "created": 1554604551840,
+                                            "text": "Instance variables: at the top of the class"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bt79cmegd7s0",
+                                            "created": 1554604635845,
+                                            "text": "Dependent Functions: caller should be above callee"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bt7a8hy6rqw0",
+                                            "created": 1554607133808,
+                                            "text": "Conceptual Affinity"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7a9i6vwvc0",
+                                    "created": 1554607212698,
+                                    "text": "Vertical Ordering"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt7adjnv6ao0",
+                            "created": 1554607529358,
+                            "text": "Horizontal Formatting"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt7adw809ag0",
+                                    "created": 1554607556697,
+                                    "text": "Horizontal Openness and Density"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7ae2fhcps0",
+                                    "created": 1554607570210,
+                                    "text": "Horizontal alignment"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7ae5xlg2w0",
+                                    "created": 1554607577836,
+                                    "text": "Indentation"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bt7aenukql40",
+                                            "created": 1554607616835,
+                                            "text": "Breaking Indentation"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7afjpgo1k0",
+                                    "created": 1554607686183,
+                                    "text": "Dummy Scopes"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bt7aho88ddk0",
+                    "created": 1554607852753,
+                    "text": "6. Objects and Data Structures",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bt7ajsceki80",
+                            "created": 1554608018441,
+                            "text": "Data Abstraction"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt7anvdh5yo0",
+                                    "created": 1554608338493,
+                                    "text": "Hiding implementation"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt7aqefwjmw0",
+                            "created": 1554608536727,
+                            "text": "Data/Oject Anti-Symmetry"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt7aqrdyxjk0",
+                                    "created": 1554608564908,
+                                    "text": "objects: hide their data and expose functions"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7ar5lcqrk0",
+                                    "created": 1554608595830,
+                                    "text": "data structure: expose their data and no meaningful functions"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt7aug3w4rs0",
+                            "created": 1554608853811,
+                            "text": "The Law of Demeter: a module should not know about the innards of the objects"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt7axenou340",
+                                    "created": 1554609085747,
+                                    "text": "Train Wrecks"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7aytz97j40",
+                                    "created": 1554609197462,
+                                    "text": "Hybrids"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7azxqhbm00",
+                                    "created": 1554609284003,
+                                    "text": "Hiding Structure"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt7b1zlear40",
+                            "created": 1554609444777,
+                            "text": "Data Transfer Objects"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bt7er778t140",
+                    "created": 1554619883770,
+                    "text": "7. Error Handling",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bt7erq95tew0",
+                            "created": 1554619925244,
+                            "text": "Use Exceptions Rather Than Return Codes"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7exppicsw0",
+                            "created": 1554620394241,
+                            "text": "Write Your Try-Catch-Finally Statement First"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7f1q3bd0o0",
+                            "created": 1554620708533,
+                            "text": "Use Unchecked Exceptions: checked exception is an Open/Closed Principle violation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7f8gmxxxs0",
+                            "created": 1554621236501,
+                            "text": "Provide Context with Exceptions: source,location and informative error message"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7fo22lfog0",
+                            "created": 1554622458622,
+                            "text": "Define Exception Classes in Terms of a Caller's Needs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7ft6ckf800",
+                            "created": 1554622859753,
+                            "text": "Define the Normal Flow"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7fvh2t23k0",
+                            "created": 1554623039836,
+                            "text": "Don't Return Null"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt7fwe4u08w0",
+                                    "created": 1554623111792,
+                                    "text": "throws an exception"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7fwhywic00",
+                                    "created": 1554623120141,
+                                    "text": "returns a special case object"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt7fxdn68p40",
+                            "created": 1554623189088,
+                            "text": "Don't Pass Null"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bt7fyw0yo680",
+                    "created": 1554623307468,
+                    "text": "8. Boundaries",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bt7fzkact4w0",
+                            "created": 1554623360279,
+                            "text": "Using Third-Party Code"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7h2hm0ybc0",
+                            "created": 1554626410657,
+                            "text": "Exploring and Learning Boundaries: write learning tests"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7h60py8fs0",
+                            "created": 1554626687346,
+                            "text": "Learning Tests Are Better Than Free"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt7hbtqakls0",
+                            "created": 1554627142314,
+                            "text": "Using Code That Does Not Yet Exist"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bt7hctxqhgg0",
+                    "created": 1554627221128,
+                    "text": "9. Unit Tests"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bt7hgk4sq8w0",
+                            "created": 1554627513244,
+                            "text": "The Three Laws of TDD"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt7hgquxslc0",
+                                    "created": 1554627527885,
+                                    "text": "1. You may not write producion code until you have written a faling unit test"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7hhjen8ko0",
+                                    "created": 1554627590027,
+                                    "text": "2. You may not write more of a unit test than is sufficient to fail, and not compiling is failing"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt7hig5u81c0",
+                                    "created": 1554627661328,
+                                    "text": "3. You may not write more production code than is sufficient to pass the currently failing test"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt7hk0ynvr40",
+                            "created": 1554627784971,
+                            "text": "Keeping Tests Clean"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt9d1kaf70o0",
+                                    "created": 1554818173595,
+                                    "text": "Tests enable the -ilities: unit test keep our code flexible, maintainable and reusable"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt9dxmlmgiw0",
+                            "created": 1554820686279,
+                            "text": "Clean Tests"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt9dybnce000",
+                                    "created": 1554820740803,
+                                    "text": "Core"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bt9dydde9xc0",
+                                            "created": 1554820744555,
+                                            "text": "Readability"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bt9dyihsvtk0",
+                                            "created": 1554820755705,
+                                            "text": "BUILD-OPERATE-CHECK pattern"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bt9e2vgnmp40",
+                                    "created": 1554821097391,
+                                    "text": "Domain-Specific Testing Language"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bt9e5u5dg6w0",
+                            "created": 1554821329624,
+                            "text": "One Assert per Test"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bt9e73i2pnk0",
+                            "created": 1554821428347,
+                            "text": "F.I.R.S.T"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bt9e76qj0f40",
+                                    "created": 1554821435389,
+                                    "text": "Fast"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt9e78eknts0",
+                                    "created": 1554821439020,
+                                    "text": "Independent"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt9e7cwdbi80",
+                                    "created": 1554821448803,
+                                    "text": "Repeatable"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt9e7ffflqo0",
+                                    "created": 1554821454309,
+                                    "text": "Self-Validating"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bt9e7s4m9140",
+                                    "created": 1554821481953,
+                                    "text": "Timely"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
