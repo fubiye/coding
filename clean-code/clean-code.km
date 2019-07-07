@@ -1140,11 +1140,102 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "bv21uhu8l680",
+                    "created": 1561387984688,
+                    "text": "10. Classes"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvcoufey5vs0",
+                            "created": 1562468464505,
+                            "text": "Class Organization"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvcov25mh0g0",
+                                    "created": 1562468514007,
+                                    "text": "Encapsulation: make a variable or utility function protected so that it can be accessed by a test"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvcowfiy1e00",
+                            "created": 1562468621475,
+                            "text": "Classes should be small"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvcowr4vbtc0",
+                                    "created": 1562468646745,
+                                    "text": "Measurment: responsibilities"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvcoxrkgwfk0",
+                                    "created": 1562468726052,
+                                    "text": "The Single Responsibility Principle(SRP): only one reason to change"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvcoyt9a67c0",
+                                    "created": 1562468808094,
+                                    "text": "Cohesion: each variable is used by each method is maximally cohesive"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvcp05gkb940",
+                                    "created": 1562468913020,
+                                    "text": "Maintaining Cohesion Results in Many Small Classes"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvcp12ni1n40",
+                            "created": 1562468985273,
+                            "text": "Organizing for Change"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvcp22bjgrs0",
+                                    "created": 1562469062915,
+                                    "text": "Open-Closed Principle: class should be open for extension but closed for modification"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvcp2y51hio0",
+                                    "created": 1562469132178,
+                                    "text": "Isolating from Change: Minimizing coupling, Dependency Inversion Principle, depend on abstractions, not on concrete details"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
     "template": "right",
     "theme": "fresh-blue-compat",
-    "version": "1.4.43",
-    "id": "bswm04nich40"
+    "version": "1.4.43"
 }
