@@ -987,7 +987,8 @@
                 "data": {
                     "id": "bt7hctxqhgg0",
                     "created": 1554627221128,
-                    "text": "9. Unit Tests"
+                    "text": "9. Unit Tests",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1145,14 +1146,16 @@
                 "data": {
                     "id": "bv21uhu8l680",
                     "created": 1561387984688,
-                    "text": "10. Classes"
+                    "text": "10. Classes",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "bvcoufey5vs0",
                             "created": 1562468464505,
-                            "text": "Class Organization"
+                            "text": "Class Organization",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1169,7 +1172,8 @@
                         "data": {
                             "id": "bvcowfiy1e00",
                             "created": 1562468621475,
-                            "text": "Classes should be small"
+                            "text": "Classes should be small",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1230,6 +1234,138 @@
                                 "children": []
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvdw63vnk140",
+                    "created": 1562590687489,
+                    "text": "11. Systems"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvdw7jmxkpc0",
+                            "created": 1562590800155,
+                            "text": "Separate Constructing a System from Using It"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvdwd8epq1c0",
+                                    "created": 1562591245898,
+                                    "text": "Separation of Main: move all aspects of construction to main"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvdwemd53p40",
+                                    "created": 1562591354642,
+                                    "text": "Factories: abstract factory pattern"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvdwkn6faw00",
+                                    "created": 1562591826598,
+                                    "text": "Dependency Injection: application to IoC"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvdwmfevzbs0",
+                            "created": 1562591966424,
+                            "text": "Scaling Up: implement only today's stories, then refactor and expend the system"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvdwrk0cg8w0",
+                            "created": 1562592368249,
+                            "text": "Java Proxies"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvdwte4svc80",
+                                    "created": 1562592512186,
+                                    "text": "Dynamic porxy"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bvdwtk5ppqg0",
+                                            "created": 1562592525302,
+                                            "text": "JDK: only work with interfaces"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bvdwtsfgwnk0",
+                                            "created": 1562592543307,
+                                            "text": "classes: CGLIB, ASM or Javassist"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvdwuwxyo880",
+                            "created": 1562592631496,
+                            "text": "Pure Java AOP Frameworks"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvdx3idxc080",
+                            "created": 1562593305087,
+                            "text": "AspectJ Aspects"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvdx3o1afd40",
+                            "created": 1562593317383,
+                            "text": "Test Drive the System Architecture"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvdx4w762280",
+                            "created": 1562593413517,
+                            "text": "Optimize Decision Making: modularity and separation of concerns"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvdx5qr6j0w0",
+                            "created": 1562593480031,
+                            "text": "Use Standards Wisely, When They Add Demonstrable Value"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bvdx6lno4g80",
+                            "created": 1562593547299,
+                            "text": "Systems Need Domain-Specific Languages"
+                        },
+                        "children": []
                     }
                 ]
             }
