@@ -1374,7 +1374,8 @@
                 "data": {
                     "id": "bviurz0y8zc0",
                     "created": 1563094558501,
-                    "text": "12. Emergence"
+                    "text": "12. Emergence",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1499,6 +1500,23 @@
                             "id": "bviv8n9w3e00",
                             "created": 1563095865111,
                             "text": "Minimal Classes and Methods"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvj2bbcgfvk0",
+                    "created": 1563115822007,
+                    "text": "14. Successive Refinement"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvj2d7v31x40",
+                            "created": 1563115971154,
+                            "text": "First write dirty code and then clean it"
                         },
                         "children": []
                     }
