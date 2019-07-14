@@ -1241,7 +1241,8 @@
                 "data": {
                     "id": "bvdw63vnk140",
                     "created": 1562590687489,
-                    "text": "11. Systems"
+                    "text": "11. Systems",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1364,6 +1365,140 @@
                             "id": "bvdx6lno4g80",
                             "created": 1562593547299,
                             "text": "Systems Need Domain-Specific Languages"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bviurz0y8zc0",
+                    "created": 1563094558501,
+                    "text": "12. Emergence"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bviut0p83z40",
+                            "created": 1563094640510,
+                            "text": "Simple Design Rule",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bviut6bqavs0",
+                                    "created": 1563094652754,
+                                    "text": "1.Runs All the Tests: Design should have simple way to be verified"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bviuxody6zk0",
+                                    "created": 1563095005527,
+                                    "text": "2-4 Refactoring"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bviuxs7kisg0",
+                                            "created": 1563095013849,
+                                            "text": "Eliminate duplication"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bviuy4mtw340",
+                                            "created": 1563095040893,
+                                            "text": "Ensure Expressiveness"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bviuyergq8w0",
+                                            "created": 1563095062941,
+                                            "text": "Minimize the number of classes and methods"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bviv1sshx480",
+                            "created": 1563095328571,
+                            "text": "No Duplication"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bviv20ixj3k0",
+                                    "created": 1563095345407,
+                                    "text": "Template Method pattern"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bviv3cwenns0",
+                            "created": 1563095450707,
+                            "text": "Expressive"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bviv6kq27880",
+                                    "created": 1563095702830,
+                                    "text": "choosing good name"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bviv6nv83i00",
+                                    "created": 1563095709673,
+                                    "text": "keeping your functions and classes small"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bviv6wl8ui80",
+                                    "created": 1563095728660,
+                                    "text": "using standard nomenclature"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bviv7k88nyw0",
+                                    "created": 1563095780117,
+                                    "text": "Well-written unit tests"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bviv7zgjtps0",
+                                    "created": 1563095813271,
+                                    "text": "try"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bviv8n9w3e00",
+                            "created": 1563095865111,
+                            "text": "Minimal Classes and Methods"
                         },
                         "children": []
                     }
