@@ -1509,7 +1509,8 @@
                 "data": {
                     "id": "bvj2bbcgfvk0",
                     "created": 1563115822007,
-                    "text": "14. Successive Refinement"
+                    "text": "14. Successive Refinement",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1519,6 +1520,612 @@
                             "text": "First write dirty code and then clean it"
                         },
                         "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bvriy4261ao0",
+                    "created": 1563975225935,
+                    "text": "17. Smells and Heuristics"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bvrj7zg4yag0",
+                            "created": 1563975999537,
+                            "text": "Comments",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvrj890nixs0",
+                                    "created": 1563976020369,
+                                    "text": "C1: Inappropriate Information"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrj9hmru940",
+                                    "created": 1563976117485,
+                                    "text": "C2: Obsolete Comment"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjak0qjpk0",
+                                    "created": 1563976201047,
+                                    "text": "C3: Redundant Comment"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjb5fwuio0",
+                                    "created": 1563976247677,
+                                    "text": "C4: Poorly Written Comment"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjbm8px1k0",
+                                    "created": 1563976284247,
+                                    "text": "C5: Commented-Out Code"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvrjc76d9xs0",
+                            "created": 1563976329817,
+                            "text": "Environment",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvrjcaie0680",
+                                    "created": 1563976337074,
+                                    "text": "E1: Build Requires More Than One Step"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrje44yk5c0",
+                                    "created": 1563976479930,
+                                    "text": "E2: Tests Require More Than One Step"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvrjehtkesg0",
+                            "created": 1563976509716,
+                            "text": "Functions",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvrjel9k9280",
+                                    "created": 1563976517214,
+                                    "text": "F1: Too Many Arguments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjesdhom80",
+                                    "created": 1563976532689,
+                                    "text": "F2: Output Arguments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjeyz7kq80",
+                                    "created": 1563976547063,
+                                    "text": "F3: Flag Arguments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjf6u2vhc0",
+                                    "created": 1563976564167,
+                                    "text": "F4: Dead Function"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvrjfix2jc00",
+                            "created": 1563976590469,
+                            "text": "General",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvrjfpmmn3c0",
+                                    "created": 1563976605075,
+                                    "text": "G1: Multiple Languages in One Source File"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjghf1g6o0",
+                                    "created": 1563976665566,
+                                    "text": "G2: Obvious Behavior Is Unimplemented"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjhijly400",
+                                    "created": 1563976746383,
+                                    "text": "G3: Incorrect Behavior at the Boundaries"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjiy712g00",
+                                    "created": 1563976858815,
+                                    "text": "G4: Overridden Safeties"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjk3wugbk0",
+                                    "created": 1563976949624,
+                                    "text": "G5: Duplication - Don't Repeat Yourself(DRY)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjm0d9twg0",
+                                    "created": 1563977098639,
+                                    "text": "G6: Code at Wrong Level of Abstraction"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjnjbpfqg0",
+                                    "created": 1563977218267,
+                                    "text": "G7: Base Classes Depending on Their Derivatives"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjo1aus3k0",
+                                    "created": 1563977257398,
+                                    "text": "G8: Too much information"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjoulgw9c0",
+                                    "created": 1563977321166,
+                                    "text": "G9: Dead Code"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjp7pbh4o0",
+                                    "created": 1563977349697,
+                                    "text": "G10: Vertical Separation"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjqogdgls0",
+                                    "created": 1563977464526,
+                                    "text": "G11: Inconsistency"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjrg3uqmw0",
+                                    "created": 1563977524719,
+                                    "text": "G12: Clutter"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjsxu950o0",
+                                    "created": 1563977641684,
+                                    "text": "G13: Artificial Coupling"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrju4deul40",
+                                    "created": 1563977734268,
+                                    "text": "G14: Feature Envy"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjxa7ahso0",
+                                    "created": 1563977982051,
+                                    "text": "G15: Selector Arguments"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjyice8yw0",
+                                    "created": 1563978078138,
+                                    "text": "G16: Obscured Intent"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrjzx01bzc0",
+                                    "created": 1563978188406,
+                                    "text": "G17: Misplaced Responsibility"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk0goyzbk0",
+                                    "created": 1563978231273,
+                                    "text": "G18: Inappropriate Static"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk1gbaxwg0",
+                                    "created": 1563978308811,
+                                    "text": "G19: Use Explanatory Variables"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk300b3hs0",
+                                    "created": 1563978430046,
+                                    "text": "G20: Function Names Should Say What They Do"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk3d2tv6w0",
+                                    "created": 1563978458496,
+                                    "text": "G21: Understand the Algorithm"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk4dwfn2w0",
+                                    "created": 1563978538651,
+                                    "text": "G22: Make Logical Dependencies Physical"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk63e01800",
+                                    "created": 1563978672497,
+                                    "text": "G23: Prefer Polymorphism to If/Else or Switch/Case"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk6yfj7wg0",
+                                    "created": 1563978740069,
+                                    "text": "G24: Follow Standard Conventions"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk7dqc8go0",
+                                    "created": 1563978773375,
+                                    "text": "G25: Replace Magic Numbers with Named Constants"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrk85xge6w0",
+                                    "created": 1563978834755,
+                                    "text": "G26: Be Precise"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkaijbtmo0",
+                                    "created": 1563979018927,
+                                    "text": "G27: Structure over Convention"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkb0grcio0",
+                                    "created": 1563979057954,
+                                    "text": "G28: Encapsulate Conditionals"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkbfpqywo0",
+                                    "created": 1563979091149,
+                                    "text": "G29: Avoid Negative Conditionals"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkbr388ow0",
+                                    "created": 1563979115909,
+                                    "text": "G30: Functions Should Do One Thing"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkc8ltoao0",
+                                    "created": 1563979154039,
+                                    "text": "G31: Hidden Temporal Couplings"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkdic4exs0",
+                                    "created": 1563979253584,
+                                    "text": "G32: Don't Be Arbitrary"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrke0ri8ag0",
+                                    "created": 1563979293696,
+                                    "text": "G33: Encapsulate Boundary Conditions"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkecng7ow0",
+                                    "created": 1563979319572,
+                                    "text": "G34: Functions Should Descend Only One Level of Abstraction"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkf3jtwfc0",
+                                    "created": 1563979378126,
+                                    "text": "G35: Keep Configurable Data at High Levels"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkg0ue0dc0",
+                                    "created": 1563979450599,
+                                    "text": "G36: Avoid Transitive Navigation"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvrkgz4mpl40",
+                            "created": 1563979525229,
+                            "text": "Java",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvrkh0w1xbs0",
+                                    "created": 1563979529064,
+                                    "text": "J1: Avoid Long Import Lists by Using Wildcards"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkhd90zxk0",
+                                    "created": 1563979555969,
+                                    "text": "J2: Don't Inherit Constants"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrki8adu5k0",
+                                    "created": 1563979623532,
+                                    "text": "J3: Constants versus Enums"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvrkiwvkkmw0",
+                            "created": 1563979677056,
+                            "text": "Names",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvrkj5ezwig0",
+                                    "created": 1563979695644,
+                                    "text": "N1: Choose Descriptive Names"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkjdcsbcg0",
+                                    "created": 1563979712925,
+                                    "text": "N2: Choose Names at the Appropriate Level of Abstraction"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkjrd62e00",
+                                    "created": 1563979743423,
+                                    "text": "N3: Use Standard Nomenclature Where Possible"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkkh0ouq00",
+                                    "created": 1563979799265,
+                                    "text": "N4: Unambiguous Names"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkkqmh14o0",
+                                    "created": 1563979820173,
+                                    "text": "N5: Use Long Names for Long Scopes"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkkz1ikt40",
+                                    "created": 1563979838497,
+                                    "text": "N6: Avoid Encodings"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkl8khn5s0",
+                                    "created": 1563979859235,
+                                    "text": "N7: Names Should Describe Side-Effects"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bvrkls6g7bk0",
+                            "created": 1563979901922,
+                            "text": "Tests"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bvrkltzbie80",
+                                    "created": 1563979905844,
+                                    "text": "T1: Insufficient Tests"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkm4vte940",
+                                    "created": 1563979929577,
+                                    "text": "T2: Use a Coverage Tool"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkmavnfvk0",
+                                    "created": 1563979942628,
+                                    "text": "T3: Don't Skip Trivial Tests"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkmilpj340",
+                                    "created": 1563979959441,
+                                    "text": "T4: An Ignored Test Is a Question about Ambiguity"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrknkitqfs0",
+                                    "created": 1563980041984,
+                                    "text": "T5: The Boundary Conditions"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrknqjzhpc0",
+                                    "created": 1563980055115,
+                                    "text": "T6: Exhaustively Test Near Bugs"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrko80xgrk0",
+                                    "created": 1563980093145,
+                                    "text": "T7: Patterns of Failure Are Revealing"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkp3dux3s0",
+                                    "created": 1563980161407,
+                                    "text": "T8: Test Coverage Patterns Can Be Revealing"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bvrkpfzjink0",
+                                    "created": 1563980188840,
+                                    "text": "T9: Tests Should Be Fast"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
