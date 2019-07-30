@@ -12,7 +12,7 @@
                     "created": 1553523196307,
                     "text": "2. Meaningful Names",
                     "layout": null,
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -182,7 +182,7 @@
                     "id": "bsxicxknu740",
                     "created": 1553614450588,
                     "text": "3. Functions",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -238,7 +238,7 @@
                             "id": "bsxiolxjqqo0",
                             "created": 1553615365616,
                             "text": "Arguments",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -365,7 +365,7 @@
                     "id": "bt78kerhl4o0",
                     "created": 1554602425023,
                     "text": "4.Comments",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -381,7 +381,7 @@
                             "id": "bt78lbkfwgg0",
                             "created": 1554602496430,
                             "text": "Good Comments",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -455,7 +455,7 @@
                             "id": "bt78o3bthtk0",
                             "created": 1554602713587,
                             "text": "Bad Comments",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -611,7 +611,7 @@
                     "id": "bt7900jnxhc0",
                     "created": 1554603647901,
                     "text": "5. Formatting",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -627,7 +627,7 @@
                             "id": "bt793tpvm4g0",
                             "created": 1554603946496,
                             "text": "Vertical Formatting",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -762,7 +762,7 @@
                     "id": "bt7aho88ddk0",
                     "created": 1554607852753,
                     "text": "6. Objects and Data Structures",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -855,7 +855,7 @@
                     "id": "bt7er778t140",
                     "created": 1554619883770,
                     "text": "7. Error Handling",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -946,7 +946,7 @@
                     "id": "bt7fyw0yo680",
                     "created": 1554623307468,
                     "text": "8. Boundaries",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -988,7 +988,7 @@
                     "id": "bt7hctxqhgg0",
                     "created": 1554627221128,
                     "text": "9. Unit Tests",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1147,7 +1147,7 @@
                     "id": "bv21uhu8l680",
                     "created": 1561387984688,
                     "text": "10. Classes",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1242,7 +1242,7 @@
                     "id": "bvdw63vnk140",
                     "created": 1562590687489,
                     "text": "11. Systems",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1375,7 +1375,7 @@
                     "id": "bviurz0y8zc0",
                     "created": 1563094558501,
                     "text": "12. Emergence",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1510,7 +1510,7 @@
                     "id": "bvj2bbcgfvk0",
                     "created": 1563115822007,
                     "text": "14. Successive Refinement",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1535,7 +1535,7 @@
                             "id": "bvrj7zg4yag0",
                             "created": 1563975999537,
                             "text": "Comments",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -1585,7 +1585,7 @@
                             "id": "bvrjc76d9xs0",
                             "created": 1563976329817,
                             "text": "Environment",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -1611,7 +1611,7 @@
                             "id": "bvrjehtkesg0",
                             "created": 1563976509716,
                             "text": "Functions",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -1653,7 +1653,7 @@
                             "id": "bvrjfix2jc00",
                             "created": 1563976590469,
                             "text": "General",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -1951,7 +1951,7 @@
                             "id": "bvrkgz4mpl40",
                             "created": 1563979525229,
                             "text": "Java",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -1985,7 +1985,7 @@
                             "id": "bvrkiwvkkmw0",
                             "created": 1563979677056,
                             "text": "Names",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -2131,7 +2131,7 @@
             }
         ]
     },
-    "template": "right",
+    "template": "default",
     "theme": "fresh-blue-compat",
     "version": "1.4.43"
 }
